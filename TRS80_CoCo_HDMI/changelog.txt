@@ -1,0 +1,39 @@
+Revision 1:
+Project created.
+It somehow worked right from the very first try.
+Translated CPU module was tested an it too worked on the first try.
+PIA module created.
+SAM module created.
+CPU translation complete.
+ROMs created.
+Top level created.
+Fixed address bus width of the VDG module.
+Keyboard controller not yet implemented.
+At this point the system can boot and the blinky cursor does its thing, but without a keyboard it can't do anything useful.
+This revision was not archived.
+
+Revision 2:
+Adapted key matrix module from the MC10 project.
+Adapted PS2 keyboard module from the MC10 project.
+Adapted key mapper module from the MC project.
+Rewrote ps2_host module.
+This all worked on the first try too!
+
+Revision 3:
+Created new Quartus project for the DragonBoard.
+Removed hex display outputs.
+Modified SDRAM interface for the new board.
+Modified display controller to support all colors.
+Modified SDRAM controller for 8-bit SDRAM.
+Modified SAM for 8-bit SDRAM.
+Modified PS2_host to support sending data to the keyboard.
+Added kb_indicators module to control the keyboard indicators.
+Modified ps2_keyboard to use kb_indicators.
+Fixed bug in ps2_keyboard.
+Copied pin assignments from MC-10 project.
+
+Revision 4:
+Created new Quartus project for QMTECH board.
+Created MC6847_gen4 with HDMI output.
+Fixed bug in SDRAM controller.
+	This bug affects the W9825G6KH chip, but the controller was working fine for HY57V641620F and TMS626812A.

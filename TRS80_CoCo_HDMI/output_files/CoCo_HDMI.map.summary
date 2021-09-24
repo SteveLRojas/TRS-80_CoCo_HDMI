@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Sep 23 13:45:35 2021
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : CoCo_HDMI
+Top-level Entity Name : CoCo_HDMI
+Family : Cyclone 10 LP
+Total logic elements : 2,597
+    Total combinational functions : 2,451
+    Dedicated logic registers : 782
+Total registers : 782
+Total pins : 50
+Total virtual pins : 0
+Total memory bits : 139,264
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 2
